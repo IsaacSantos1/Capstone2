@@ -1,0 +1,40 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+  max-width:100%;
+}
+
+.who_we_are_container{
+  padding: 40px;
+}
+.carousel{
+  display:flex;
+  justify-content:center;
+  max-width: 92vw;
+  gap:20px;
+  padding: 10px 0px;
+}
+
+.section1 img{
+  width:145.14 px;
+  height:145.14 px;
+  border-radius:15px;
+}
+
+.section1 hr{
+  padding-top: 40px;
+}
+
+@media screen and (max-width:799px){
+
+  #root{
+    padding: 1rem 1rem;
+  }
+  }
+
+  @media screen and (min-width:800px) and (max-width:1199px){
+
+    #root{
+      padding: 20px 0px;
+    }
+    }
